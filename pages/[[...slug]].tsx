@@ -86,7 +86,6 @@ export const getStaticProps = (async ({ params, previewData }) => {
         settings: settingsData.stories[0]?.content || null,
         key: pageData.story.id,
       },
-      revalidate: 3600, // revalidate every hour
     };
   } catch (e) {
     return {
