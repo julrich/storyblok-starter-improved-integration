@@ -14,6 +14,7 @@ import palette from "@kickstartds/ds-agency/global.client.js";
 import IconSprite from "../token/IconSprite";
 import "@kickstartds/ds-agency/global.css";
 import "../token/tokens.css";
+import "../index.scss";
 import { BlurHashProvider } from "@/components/BlurHashContext";
 
 initStoryblok(process.env.NEXT_STORYBLOK_API_TOKEN);
