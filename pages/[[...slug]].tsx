@@ -54,7 +54,7 @@ export const getStaticProps = (async ({ params, previewData }) => {
       fetchStories({ content_type: "settings" }, previewStoryblokApi),
     ]);
 
-    const cache = new Cache({ basePath: "./.cache/blurhashes" });
+    const cache = new Cache({ basePath: "./public/blurhashes" });
     await cache.load();
 
     const storyImages: string[] = [];
