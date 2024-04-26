@@ -1,6 +1,5 @@
 import Head from "next/head";
 import { SeoStoryblok } from "@/types/components-schema";
-import Fonts from "@/components/Fonts";
 
 export default function Meta({
   pageSeo,
@@ -28,7 +27,6 @@ export default function Meta({
     <Head>
       <title>{title}</title>
       <link rel="shortcut icon" href="/favicon.ico" />
-      <Fonts />
       <meta name="description" content={description} />
       <meta
         name="keywords"
